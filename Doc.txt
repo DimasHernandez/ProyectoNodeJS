@@ -1,0 +1,24 @@
+https://www.youtube.com/watch?v=qJ5R9WTW0_E&ab_channel=Fazt
+
+
+npm init --yes
+npm i express
+npm i express express-handlebars express-session mysql express-mysql-session morgan bcryptjs passport passport-local timeago.js connect-flash express-validator
+
+//Git Download
+https://git-scm.com/download
+//Basic commands beginers
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+git branch --> Mostrar las ramas
+git branch "Rama" --> Crea una rama Local
+git fetch  --> 
+git pull  --> 
+git checkout "Nombre rama" --> Se para sobre la rama
+git status  --> Ve el estado de los archivos modificados en el proyecto
+git add . --> Agrega la actualización realizada en el proyecto y la guarda en memoria
+git push --> Sube el contenido al Git (Solicita Usuario y Contraseña del GIT)
+
+
+//Install nodemon
+npm i nodemon -D
