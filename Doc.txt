@@ -19,6 +19,18 @@ git status  --> Ve el estado de los archivos modificados en el proyecto
 git add . --> Agrega la actualización realizada en el proyecto y la guarda en memoria
 git push --> Sube el contenido al Git (Solicita Usuario y Contraseña del GIT)
 
+//Para actualizar datos de rama local a rama remota
+*1ro Estar en la Rama Loca
+git status
+git add .
+git commit -m "Mensaje de actuzalización"
+
+*2do Pasar a la rama remota a la que necesito actualizar
+git checkout "Rama remota"
+git merge "Nombre Rama Local o Rama Remota"
+git push
+git log
+
 
 //Install nodemon
 npm i nodemon -D
@@ -69,6 +81,33 @@ ALTER TABLE links
 
 DESCRIBE users;
 
+>SHOW TABLES; --> Muestra las tablas del BD
+>SELECT * FROM links; --> Ver los datos en esa tabla
+
+//--Conexión Base de Datos desde NodeJS
+https://www.javatpoint.com/nodejs-mysql-insert-record
+
+
+
+
+
+
+//--------------Fuentes Google Fonts
+https://fonts.google.com/specimen/Josefin+Sans?sidebar.open=true&selection.family=Josefin+Sans
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+//--------------Framework Boostrap --> Copiar CSS
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+// Barra de Navegación
+https://getbootstrap.com/docs/5.0/components/navbar/
+
+
+
+//--------------Biblioteca para Iconos
+https://fontawesome.com
+<script src="https://kit.fontawesome.com/b9c525830b.js" crossorigin="anonymous"></script>
 
 
 

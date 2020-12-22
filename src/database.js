@@ -1,8 +1,8 @@
 const mysql = require('mysql');
 
-const{databease} = require('./keys');
+const{database} = require('./keys');
 
-const pool = mysql.createPool(databease);
+const pool = mysql.createPool(database);
 const {promisify} = require('util');
 
 pool.getConnection((err, connection) => {
