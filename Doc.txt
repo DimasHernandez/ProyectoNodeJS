@@ -1,5 +1,6 @@
 https://www.youtube.com/watch?v=qJ5R9WTW0_E&ab_channel=Fazt
-
+//Repositorio GIT
+https://github.com/DimasHernandez/ProyectoNodeJS/tree/Development/src
 
 npm init --yes
 npm i express
@@ -9,6 +10,14 @@ npm i express express-handlebars express-session mysql express-mysql-session mor
 https://git-scm.com/download
 //Basic commands beginers
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+
+//Configuracion
+git init
+git clone https://github.com/DimasHernandez/ProyectoNodeJS.git
+//Clonar rama especifica
+git clone --branch <branch name> <url> [directory]
+git clone --branch Development https://github.com/DimasHernandez/ProyectoNodeJS.git
 
 git branch --> Mostrar las ramas
 git branch "Rama" --> Crea una rama Local
